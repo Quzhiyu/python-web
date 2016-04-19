@@ -1,0 +1,10 @@
+<h1>寻找任务</h1>
+
+<ul>
+{% for i in issue %}
+
+	<li>{{i["task"]}} <a href="/receive?">接收任务</a></li>
+
+{% end %}
+
+</ul>
